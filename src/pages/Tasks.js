@@ -1,12 +1,11 @@
 import React from 'react';
 import Navbar from '../components/Navbar';
-const Aboutus = () => {
+const Tasks = () => {
     return (
         <div>
             <Navbar/>
-            About Us Page
         </div>
     );
 };
 
-export default Aboutus;
+export default Tasks;
