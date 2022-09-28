@@ -1,15 +1,12 @@
 import React from 'react';
-
+import Details from './taskpage/Details';
+import List from './taskpage/List';
 const tasks = () => {
     return (
-        <div class="container" >
-            <div style={{	width: '100%'}}>
-                hello!
-            </div>
-            <div style={{	width: '100%'}}>
-                la
-            </div>
-      </div>
+        <div class="rowC" >
+            <List/>
+            <Details/>
+        </div>
       
     );
 };

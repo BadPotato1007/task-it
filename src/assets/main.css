@@ -158541,3 +158541,20 @@ video {
     transition-delay: 1000ms;
   }
 }
+.Task-Details{
+  background-color: #1F2937;
+  width:75%;
+  color:#EAECEE;
+}
+.Task-List{
+  background-color: #1F2937;
+  width:25%;
+  color:#EAECEE;
+  border-right: #EAECEE;
+  border-width: 10px;
+  border-color:#EAECEE;
+}
+.rowC{
+  display:flex; 
+  flex-direction:row;
+}
