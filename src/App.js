@@ -7,6 +7,7 @@ import Home from "./pages/Home";
 import AboutUs from  "./pages/AboutUs";
 import Tasks from "./pages/Tasks";
 import Profile from "./pages/Profile";
+import Auth from "./pages/Auth";
 
 function App() {
   return (
@@ -18,6 +19,8 @@ function App() {
             <Route path='/about-us' exact component={AboutUs} />
             <Route path='/tasks' exact component={Tasks} />
             <Route path='/profile' exact component={Profile} />
+            <Route path='/signup' exact component={Auth} />
+            <Route path='/signin' exact component={Auth} />
           </Switch>
         </div>
       </BrowserRouter>
