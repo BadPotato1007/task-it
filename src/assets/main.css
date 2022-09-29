@@ -11,6 +11,7 @@
 html {
   line-height: 1.15; /* 1 */
   -webkit-text-size-adjust: 100%; /* 2 */
+  background-color: #121212;
 }
 
 /* Sections
@@ -158542,19 +158543,25 @@ video {
   }
 }
 .Task-Details{
-  background-color: #1F2937;
+  background-color: #202124;
   width:75%;
-  color:#EAECEE;
+  color:white;
+  height:100px;
 }
 .Task-List{
-  background-color: #1F2937;
+  background-color: #202124;
   width:25%;
-  color:#EAECEE;
-  border-right: #EAECEE;
+  color: white;
+  border-left: #1e1e1e;
+  border-top: #1e1e1e;
+  border-bottom: #1e1e1e;
   border-width: 10px;
-  border-color:#EAECEE;
+  border-color:white;
 }
 .rowC{
   display:flex; 
   flex-direction:row;
+}
+.thenav{
+  background-color:#1f1f1f;
 }
