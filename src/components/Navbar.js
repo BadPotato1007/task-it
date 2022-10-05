@@ -2,6 +2,7 @@ import React, { Fragment } from 'react'
 import { Disclosure, Menu, Transition } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 import logo from '../taskit.png';
+import '../assets/main.css'
 const navigation = [
   { name: 'Your Tasks', href: '/tasks', current: false },
   { name: 'About Us', href: '/about-us', current: false },
