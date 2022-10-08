@@ -1,7 +1,7 @@
 import React, { Fragment } from 'react'
 import { Disclosure, Menu, Transition } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
-import logo from '../taskit.png';
+import logo from '../logoW.png';
 import '../assets/main.css'
 const navigation = [
   { name: 'Your Tasks', href: '/tasks', current: false },
@@ -42,6 +42,7 @@ export default function Navbar() {
                     src={logo}
                     alt="Your Company"
                   /></a>
+                  .....
                 </div>
                 <div className="hidden sm:ml-6 sm:block">
                   <div className="flex space-x-4">
